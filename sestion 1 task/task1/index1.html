@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="img">
+            <img src="p1.png">
+        </div>
+
+
+        <div class="form-style">
+            <h1>Doctor Appointment Form</h1>
+
+            <hr>
+
+            <form>
+
+                <div class="form-group">
+                    <label>Appointment Date</label>
+                    <input type="date" name="date" required>
+                </div>
+
+
+                <br>
+                <div class="form-group">
+                    <label>Appointment time</label>
+                    <input type="time" name="time" required>
+                </div>
+
+
+                <br>
+
+                <div class="form-group">
+
+                    <label>name</label>
+                    <input type="text" name="first_name" placeholder="first" required>
+                    <input type="text" name="last_name" placeholder="last" required>
+
+                </div>
+
+                <br>
+
+                <div class="form-group">
+                    <label>Gender</label>
+                    <label>Male</label>
+                    <input type="radio" name="gender" value="male" required>
+
+                    <label>female</label>
+                    <input type="radio" name="gender" value="female" required>
+                </div>
+
+
+                <br>
+
+                <div class="form-group">
+                    <label>phone</label>
+                    <input type="tel" name="phone" placeholder="###" required>
+                </div>
+
+
+                <br>
+
+                <div class="form-group">
+                    <label>address</label>
+                    <input type="text" name="city" placeholder="city" required>
+                    <input type="text" name="state" placeholder="state"  required>
+                </div>
+
+                <br>
+
+                <div class="form-group">
+                    <label>Your Query</label>
+                    <textarea name="query" rows="4" cols="50" required></textarea>
+                </div>
+
+                <br>
+
+                <div class="checkbox">
+                    <label class="checkbox-lable">Appointment Type</label>
+                    <div class="checkbox-content">
+                        <p>Select which appointment type(s) you require</p>
+                        <label>
+                            <input type="checkbox" name="appointment_typ" value="Cervix ">
+                            Cervix checkup
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="appointment_typ" value="heart ">
+                            heart checkup
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="appointment_typ" value="eye ">
+                            eye checkup
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="appointment_typ" value="hearing ">
+                            hearing checkup
+                        </label>
+                    </div>
+
+                </div>
+
+                <br>
+
+                <button type="submit">Send</button>
+            </form>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>

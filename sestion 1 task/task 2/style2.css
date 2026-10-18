@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contanier {
+
+    background-color: rgb(1, 1, 71);
+}
+
+.header {
+    background-color: rgb(1, 1, 71);
+
+    margin: 20px;
+}
+
+.header h1 {
+    color: chocolate;
+    margin-bottom: 10px;
+}
+
+.header p {
+    color: white;
+}
+
+.content {
+    background-color: rgb(0, 70, 93);
+    padding: 20px 0;
+    font-size: 0;
+    text-align: center;
+
+}
+
+.card {
+    display: inline-block;
+    width: 48%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    vertical-align: top;
+    text-align: left;
+
+}
+
+.content .card p {
+    color: bisque;
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+
+
+
+}
+
+.content .card img {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    height: 190px;
+    border: 1px solid #000;
+}

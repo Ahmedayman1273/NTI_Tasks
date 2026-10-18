@@ -1,0 +1,65 @@
+.container{
+  
+width: 100%;
+
+}
+.img{
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+}
+.img img{
+
+    width: 100%;
+}
+
+.form-style{
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+    vertical-align: top;
+
+}
+.form-style h1{
+    text-align: center;
+
+}
+hr{
+    border: 2px solid red;
+}
+.form-group label{
+    display: inline-block;
+    width: 110px;
+    vertical-align: middle;
+
+}
+.form-group input{
+    display: inline-block;
+}
+.form-group textarea {
+    display: inline-block;
+    vertical-align: middle;
+}
+.checkbox {
+    margin-bottom: 15px;
+}
+.checkbox .checkbox-lable{
+   display: inline-block;
+    width: 110px;
+    vertical-align: top;
+}
+.checkbox p{
+    
+    vertical-align: top;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.checkbox-content{
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 120px);
+}
+button{
+    margin-left: 117px;
+}
